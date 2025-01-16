@@ -110,9 +110,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 1.0,
+        "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.8,
@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PCBs.kicad_pro",
+    "filename": "Power-PCB.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -470,7 +470,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "plots/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
